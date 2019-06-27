@@ -18,7 +18,7 @@ if __name__ == '__main__':
         B.interactive_input()
 
         product = A.multiplication(B)
-        A.pretty_print_values()
+        product.pretty_print_values()
 
     except ValueError:
         sys.exit('Value has to be an integer.')
